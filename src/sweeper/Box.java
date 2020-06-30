@@ -1,5 +1,7 @@
 package sweeper;
 
+//import java.awt.*; !!!Библиотеку удаляем она не нужна а в Image ставим Object
+
 public enum Box {
 
     ZERO,
@@ -18,6 +20,8 @@ public enum Box {
     FLAGED,
     BOMBED,
     NOBOMB;
+
+    public Object image;
 
 
 }
